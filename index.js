@@ -104,4 +104,41 @@ if(animal === "cow"){
 // Commit Will commit on gitHub
 
 
+//--------------------------------------//
+//------------Driver's Ed---------------//
+
+// Make a variable that holds a person's age; be semantic
+const age = 15;
+
+/*Write code that will print out "Here are the keys!", if the age is 16 years or older, or,
+ if the age is younger than 16, a message should print "Sorry, you're too young." */
+
+if(age >= 16){
+    console.log("Here are the keys!")
+}else{
+    console.log("Sorry, you're too young.")
+}
+
+
+//--------------------------------------//
+//---------------Loops------------------//
+
+//Write a loop that will print out all the numbers from 0 to 10, inclusive
+for(let i=0; i<=10; i++){
+    console.log(i)
+}
+
+//Write a loop that will print out all the numbers from 10 up to and including 400
+for(let i=10; i<=400; i++){
+    console.log(i)
+}
+
+//Write a loop that will print out every third number starting with 12 and going no higher than 4000
+for(let i=12; i<=4000; i+=3){
+    console.log(i)
+}
+
+
+//--------------------------------------//
+//---------------Get even---------------//
 
