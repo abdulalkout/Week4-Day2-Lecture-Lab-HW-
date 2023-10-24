@@ -97,19 +97,23 @@ console.log(maxOfThree(12, 12, 13))
 
 
 //----------H------------//
-// console.log('------H-----------')
-// printLongestWord = (stringArry =['']) => {
-//     let bigest = 0;
-//     let bigestIndex =0;
-//     for(let i=0; i<=stringArry.length; i++){
-//         let newString = stringArry[i];
-//         if(bigest < newString.length){
-//             bigest = newString.length;
-//             bigestIndex = i;
-//         }
-//     }
-//     console.log(stringArry[bigestIndex])
-// }
-// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
-// let stringry = ['ss', 'sss']
-// console.log(stringry[0].length)
+console.log('------H-----------')
+printLongestWord = (stringArry =['']) => {
+    let bigestNumber = 0;
+    let bigestIndex = '';
+
+    stringArry.forEach(string => {
+        if(bigestNumber >= string.length){
+            bigestNumber = bigestNumber;
+            bigestIndex = bigestIndex
+        }else if(bigestNumber < string.length){
+            bigestNumber = string.length;
+            bigestIndex = string
+        }
+    })
+    // console.log(bigestIndex)
+    return bigestIndex
+}
+console.log(printLongestWord(['dd','ddd','dddd', 'cccc']))
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
